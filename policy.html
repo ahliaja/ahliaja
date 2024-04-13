@@ -5,10 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kebijakan Pengguna Aplikasi Ahli Aja</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   
 </head>
-
 <body>
-
+  <header>
+    <h6>
+      <img class="toggle-btn" src="./icon-app.png" alt="" srcset="" width="150px">
+    </h6>
+  </header>
+  <div class="container">
+    <div class="navbar" id="navbar">
+        <a onclick="toggleNavbar()"> <i class="fas fa-bars"></i></a>
+        <a id="link_a" href="./index.html">Beranda</a>
+        <a id="link_b" href="./about.html">Tentang Kita</a>
+        <a id="link_c" href="./contribute.html">Kontributor</a>
+        <a id="link_d" href="./qna.html">Tanya Jawab</a>
+        <a id="link_e" href="./policy.html">Kebijakan</a>
+      </div>
     <h1>Kebijakan Pengguna Aplikasi Ahli Aja</h1>
 
     <h2>1. Pendahuluan</h2>
@@ -108,6 +123,10 @@ relevan bagi Anda dan/atau bekerja dengan versi Android yang Anda instal di pera
 <p><strong>Hubungi Kami</strong></p>
 <p>Jika Anda memiliki pertanyaan atau saran tentang Syarat dan Ketentuan kami, jangan ragu untuk menghubungi kami di ahliaja.official@gmail.</p>
 <p>Halaman Syarat dan Ketentuan ini dibuat oleh App Privacy Policy Generator</p>
+<div class="copyright" id="copyright">
+    <!-- Copyright notice will be added here dynamically -->
+  </div>
+  <script src="./script.js"></script>
 </body>
 
 </html>

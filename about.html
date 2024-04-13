@@ -4,46 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tentang AhliAja</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color:rgb(23, 199, 205); 
-            color: #333;
-        }
-        header {
-            background-color: rgb(23, 199, 205); 
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-            
-        }
-        h2 {
-            color: rgb(23, 199, 205); 
-        }
-        p {
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   
 </head>
 <body>
-    <header>
-        <h1>Tentang Kami: AhliAja</h1>
-    </header>
-    <section>
-        <div class="container">
+  <header>
+    <h6>
+      <img class="toggle-btn" src="./icon-app.png" alt="" srcset="" width="150px">
+    </h6>
+  </header>
+  <div class="container">
+    <div class="navbar" id="navbar">
+        <div class="navbar" id="navbar">
+            <a onclick="toggleNavbar()"> <i class="fas fa-bars"></i></a>
+            <a id="link_a" href="./index.html">Beranda</a>
+            <a id="link_b" href="./about.html">Tentang Kita</a>
+            <a id="link_c" href="./contribute.html">Kontributor</a>
+            <a id="link_d" href="./qna.html">Tanya Jawab</a>
+            <a id="link_e" href="./policy.html">Kebijakan</a>
+          </div>
+    </div>
+            <h1>Tentang Kita</h1>
             <h2>Misi Kami</h2>
             <p>Misi utama kami adalah untuk menyediakan alat yang efektif dan menyenangkan bagi pengguna untuk meningkatkan pengetahuan umum mereka. Kami percaya bahwa akses mudah terhadap materi pelajaran yang relevan dan menarik merupakan kunci untuk memperluas wawasan dan keterampilan setiap individu.</p>
 
@@ -59,5 +41,9 @@
             <p>Apakah Anda seorang siswa yang ingin mempersiapkan diri untuk ujian, seorang profesional yang ingin terus meningkatkan pengetahuan Anda, atau hanya seorang penikmat belajar yang ingin mengeksplorasi dunia pengetahuan, AhliAja adalah tempat yang tepat untuk Anda.</p>
         </div>
     </section>
+    <div class="copyright" id="copyright">
+        <!-- Copyright notice will be added here dynamically -->
+      </div>
+      <script src="./script.js"></script>
 </body>
 </html>
